@@ -1,0 +1,6 @@
+<category>
+    <pattern>WHAT'S THE WEATHER IN *</pattern>
+    <template>
+        The weather in <star/> is <python>get_weather("<star/>")</python>.
+    </template>
+</category>
